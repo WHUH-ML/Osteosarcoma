@@ -20,7 +20,7 @@ def load_setting():
         'Number of tumors': {'values': ["1", ">1"], 'type': 'selectbox', 'init_value': 0, 'add_after': ''},
         'Tumor size': {'values': [0, 1000], 'type': 'slider', 'init_value': 135, 'add_after': ', mm'},
         'Radiotherapy': {'values': ["No", "Yes"], 'type': 'selectbox', 'init_value': 0, 'add_after': ''},
-        'Surgery': {'values': ["None", "Local treatment", "Radical excision with limb salvage", 'Amputation'],
+        'Surgery': {'values': ["None", "Local destruction or excision", "Radical excision with limb salvage", 'Amputation'],
                     'type': 'selectbox', 'init_value': 1, 'add_after': ''},
         'Tumor extension': {'values': ["No break in periosteum", "Extension beyond periosteum", "Further extension"],
                             'type': 'selectbox', 'init_value': 1, 'add_after': ''},
